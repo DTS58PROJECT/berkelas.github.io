@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
@@ -21,27 +28,29 @@ a {
 
 .container {
     max-width: 1170px;
-    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
 
 }
 
 .top-wrapper {
-    padding: 180px 0px 100px 0px;
-    background-image: url('../assets/scott-graham-5fNmWej4tAA-unsplash.jpg');
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 190px 0px 120px 0px;
+    background-image: url(glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Viga', sans-serif;/*Arial, Helvetica, sans-serif;*/
+    text-align: center;
 }
 
 .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
+    opacity: 0.5;
+    font-size: 65px;
     letter-spacing: 5px;
     margin-bottom: 10px;
 }
 
 .top-wrapper p {
-    opacity: 0.7;
+    opacity: 0.5;
     margin-bottom: 3px;
 }
   
@@ -60,7 +69,7 @@ a {
 }
   
 .signup {
-    background-color: #457b9d;
+    background-color: #3D5A80;
 }
   
 .btn {
@@ -79,7 +88,7 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: #355d6b;
+    background-color: #3D5A80;
     position :fixed;
     top: 0;
     z-index: 10;
@@ -92,6 +101,7 @@ header {
 
 .header-left {
     float: left;
+    margin-top: 10px;
 }
   
 .header-right {
