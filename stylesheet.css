@@ -123,3 +123,41 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
 }
   
+main {
+    padding: 50px 100px
+}
+
+.contents{
+    height: 500px;
+    margin-top: 50px;
+}
+
+.contents h3{
+    font-size:28px;
+    border-bottom: 2px solid #acabb0;
+    padding-bottom:15px;
+    margin-bottom:50px;
+}
+
+.daftar-jenjang{
+    float:left;
+    width:30%;
+    padding-left:100px;
+}
+
+.daftar-jenjang h4{
+    font-size:20px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.daftar-jenjang p{
+    font-size:12px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.icon-jenjang {
+    position: relative;
+    border-radius:10px;
+}
