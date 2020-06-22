@@ -5,6 +5,15 @@
     font-size: 32px;
   }
 
+  .daftar-jenjang {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .heading h3 {
+    font-size: 20px;
+  }
+
 }
 
 /* Untuk Tampilan Smartphone */
@@ -34,5 +43,19 @@
   .top-wrapper p {
       font-size: 14px;
       line-height: 20px;
+  }
+
+  /* Dhara's Part */
+  .daftar-jenjang {
+    width: 100%;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .icon-jenjang p {
+    margin-left: 5px;
   }
 }
