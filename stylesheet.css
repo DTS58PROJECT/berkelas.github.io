@@ -165,3 +165,41 @@ header {
     font-size: 15px;
     color: #b3aeb5;
 }
+
+footer {
+    height: 55px;
+    width: 100%;
+    background-color: #3D5A80;
+    opacity: 0.8;
+    position :fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-family: 'Viga', Arial;
+    color: #fffaf7;
+}
+
+.footer-left {
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.footer-right a {
+    line-height: 55px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.footer-right a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
