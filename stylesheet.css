@@ -169,6 +169,53 @@ header {
     color: #b3aeb5;
 }
 
+.slider{
+    padding: 50px 100px
+}
+
+.slider h3{
+    font-size:28px;
+    border-bottom: 2px solid #acabb0;
+    padding-bottom:15px;
+    margin-bottom:50px;
+}
+
+.frame-slider{
+    margin-left:100px;
+    padding-top:10px;
+    border-radius:30px;
+}
+
+.isi-slider{
+    position:relative;
+}
+
+.channel-yutub{
+    position:absolute;
+}
+
+.ikon-foto{
+    margin-left:150px;
+    margin-top:80px;
+    float:left;
+}
+
+.channel-yutub p{
+    width:65%;
+    float:right;
+    text-align:justify;
+    padding-right:150px;
+    
+}
+
+.channel-yutub h4{
+    width:65%;
+    font-size:20px;
+    float:right;
+    margin-bottom:10px;
+    margin-top:120px;
+}
+
 /*Edulan's Part*/
 footer {
     width: 100%;
