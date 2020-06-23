@@ -61,26 +61,10 @@
   }
 
   /* Edulan's Part */
-  .inner-footer {
-    width: 50%;
-    float: left;
-    margin: auto;
-    padding: 20px 0px;
-    justify-content: justify;
-  }
-
-  .footer-none {
-    display: none;
-  }
-
   .footer-items {
-    margin-right: 40px;
+    width: 100%;
   }
 
-  .footer-bottom {
-    display: inline-block;
-    text-align: center;
-  }
 
   .team .card{
 		width:100%;
