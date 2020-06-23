@@ -144,6 +144,12 @@ header {
     text-align: center;
 }
 
+.heading h3 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
 .icon-jenjang {
     position: relative;
     border-radius:10px;
