@@ -41,6 +41,13 @@ a {
     color: #ffffff;
     font-family: 'Viga', sans-serif;/*Arial, Helvetica, sans-serif;*/
     text-align: center;
+    animation-name: fade-in;    
+    animation-duration: 3s;
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
 }
 
 .top-wrapper h1 {
@@ -144,17 +151,12 @@ header {
     text-align: center;
 }
 
-
 .jenjang {
     position: relative;
-    cursor:pointer;
-    opacity:1;
-    transition: margin 1s ease,box-shadow 1s ease;
 }
 
 .icon-jenjang {
     border-radius: 20px;
-    transition: margin 1s ease,box-shadow 1s ease;
 }
 
 .jenjang p{
@@ -166,11 +168,6 @@ header {
     font-size: 25px;
 }
 
-.icon-jenjang:hover{
-    opacity:0.8;
-    box-shadow:0px 0px 20px black;
-}
-
 .txt-contents {
     width: 90%;
     display: inline-block;
@@ -179,11 +176,37 @@ header {
     color: #b3aeb5;
 }
 
-.partner{
-    padding: 50px 100px
+.partners{
+    height: 500px;
+    margin-top: 50px;
+}
+.daftar-partner{
+    float:left;
+    width:33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
 }
 
-.partner h3{
+.partner {
+    position: relative;
+}
+
+.icon-partner {
+    border-radius: 20px;
+}
+
+.partner p{
+    position: absolute;
+    top: 95%;
+    width: 100%;
+    color: #00121b;
+    font-family: 'Viga', sans-serif;
+    font-size: 25px;
+}
+
+
+/*.partner h3{
     font-size:28px;
     border-bottom: 2px solid #acabb0;
     padding-bottom:15px;
@@ -196,8 +219,20 @@ header {
     border-radius:30px;
 }
 
+.isi-slider a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    }
+
+
 .isi-slider{
     position:relative;
+    animation-name: float;    
+    animation-duration: 4s;
+}
+
+@keyframes float {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
 }
 
 .channel-yutub{
@@ -214,8 +249,7 @@ header {
     width:65%;
     float:right;
     text-align:justify;
-    padding-right:150px;
-    
+    padding-right:150px;   
 }
 
 .channel-yutub h4{
@@ -224,6 +258,90 @@ header {
     float:right;
     margin-bottom:10px;
     margin-top:120px;
+}*/
+
+/*Dedit's Part - About us*/
+.container-about {
+    max-width: 1170px;
+    margin:auto;
+	position: relative;
+    min-height: 1px;
+}
+
+.team{
+	min-height: 100vh;
+	padding:60px 15px;
+	background-color:#ffffff; 
+	float: left;
+	width: 100%;
+}
+.team h1{
+	font-size: 36px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color:#ca3434;
+	margin:0;
+	padding-bottom:60px;
+	text-align: center;
+}
+
+.team .card{
+	width:25%;
+	float: left;
+	padding:0px 15px;
+}
+.team .card .box {
+	padding:15px;
+	background-color: #2d3035;
+	border-radius:5px;
+	transition: margin 1s ease,box-shadow 1s ease;
+}
+.team .card .box:hover{
+	margin-top:-15px;
+	box-shadow:0px 0px 40px black;
+}
+.team .card .box img{
+	width:150px;
+	display: block;
+	margin:10px auto;
+	border-radius:50%;
+}
+
+.team .card .box h4{
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	margin:20px 0px 10px;
+	color:#ea5e71;
+	text-align: center;
+	font-weight: 700;
+}
+
+.team .card .box h5{
+	font-size:16px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	color:#b9b9b9;
+	margin:0px 0px 15px;
+	text-align: center;
+}
+.team .card .box p{
+	color:#b9b9b9;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: center;
+	padding:0px 20px;
+}
+
+.box {
+    animation-name: float;    
+    animation-duration: 4s;
+}
+
+@keyframes float {
+    0% { opacity: 0; margin-left: -250px; }
+    100% { opacity: 1; margin-left: 0; }
 }
 
 /*Edulan's Part*/
@@ -250,7 +368,8 @@ footer {
     padding: 10px 30px;
     box-sizing: border-box;
 }
-  
+
+/*
 .footer-items h1 {
     padding: 8px 0;
     font-size: 25px;
@@ -264,14 +383,15 @@ footer {
     text-align: justify;
     line-height: 25px;
     margin-top: 4px;
-}
+}*/
   
 .footer-items h2 {
-    margin: 10px 0;
+    margin: 10px 0px;
     color: grey;
     font-size: 16px;
     font-weight: lighter;
     text-transform: uppercase;
+    width: 100px;
 }
   
 .border {
@@ -301,11 +421,8 @@ footer {
   
 .footer-items ul li {
     margin-right: 10px;
+    width: 200px;
     height: 25px;
-}
-  
-.footer-items li i {
-    margin-right: 10px:
 }
   
 .footer-bottom {
@@ -316,76 +433,3 @@ footer {
     text-align: center;
 }
 
-/* ABOUT US */
-.container-about {
-    max-width: 1170px;
-    margin:auto;
-	position: relative;
-	min-height: 1px;
-}
-
-.team{
-	min-height: 100vh;
-	padding:60px 15px;
-	background-color:#ffffff; 
-	float: left;
-	width: 100%;
-}
-.team h1{
-	font-size: 36px;
-	font-family: open sans;
-	font-weight: 700;
-	color:#ca3434;
-	margin:0;
-	padding-bottom:60px;
-	text-align: center;
-}
-.team .card{
-	width:25%;
-	float: left;
-	padding:0px 15px;
-}
-.team .card .box {
-	padding:15px;
-	background-color: #2d3035;
-	border-radius:5px;
-	transition: margin 1s ease,box-shadow 1s ease;
-}
-.team .card .box:hover{
-	margin-top:-15px;
-	box-shadow:0px 0px 40px black;
-}
-.team .card .box img{
-	width:150px;
-	display: block;
-	margin:10px auto;
-	border-radius:50%;
-
-}
-
-.team .card .box h4{
-	font-size: 20px;
-	font-family: open sans;
-	margin:20px 0px 10px;
-	color:#ea5e71;
-	text-align: center;
-	font-weight: 700;
-}
-
-.team .card .box h5{
-	font-size:16px;
-	font-family: open sans;
-	font-weight: 600;
-	color:#b9b9b9;
-	margin:0px 0px 15px;
-	text-align: center;
-}
-.team .card .box p{
-	color:#b9b9b9;
-	font-size: 15px;
-	font-family: open sans;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: center;
-	padding:0px 20px;
-}
