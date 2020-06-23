@@ -11,10 +11,16 @@
     margin-bottom: 50px;
   }
 
+  .daftar-partner {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
   .heading h3 {
     font-size: 20px;
   }
 
+  /*Dedit's Part*/
   .team .card{
 		width:50%;
 		margin-bottom:30px;
@@ -56,17 +62,39 @@
     width: 100%;
   }
 
+  .daftar-partner {
+    width: 100%;
+  }
+
   .heading h2 {
     font-size: 20px;
   }
 
   /* Edulan's Part */
-  .footer-items {
-    width: 100%;
+  .inner-footer {
+    width: 50%;
+    float: left;
+    margin: auto;
+    padding: 20px 0px;
+    justify-content: justify;
   }
 
+  .footer-none {
+    display: none;
+  }
 
+  .footer-items {
+    margin-right: 40px;
+  }
+
+  .footer-bottom {
+    display: inline-block;
+    text-align: center;
+  }
+
+  /*Dedit's Part*/
   .team .card{
-		width:100%;
-	}
+    width:100%;
+  }
+  
 }
