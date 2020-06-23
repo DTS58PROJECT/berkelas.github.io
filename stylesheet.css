@@ -142,18 +142,14 @@ header {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
-    cursor:pointer;
-    opacity:1;
-    transition: margin 1s ease,box-shadow 1s ease;
 }
 
-.icon-jenjang:hover{
-    opacity:0.8;
-    box-shadow:0px 0px 20px black;
-}
 
 .jenjang {
     position: relative;
+    cursor:pointer;
+    opacity:1;
+    transition: margin 1s ease,box-shadow 1s ease;
 }
 
 .icon-jenjang {
@@ -167,6 +163,11 @@ header {
     color: white;
     font-family: 'Viga', sans-serif;
     font-size: 25px;
+}
+
+.jenjang:hover{
+    opacity:0.8;
+    box-shadow:0px 0px 20px black;
 }
 
 .txt-contents {
