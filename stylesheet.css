@@ -144,18 +144,15 @@ header {
     text-align: center;
 }
 
-.heading h2 {
-  font-size: 25px;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
+.jenjang {
+    position: relative;
 }
 
 .icon-jenjang {
-    position: relative;
-    border-radius:10px;
+    border-radius: 20px;
 }
 
-.icon-jenjang p{
+.jenjang p{
     position: absolute;
     top: 5%;
     width: 100%;
@@ -172,87 +169,93 @@ header {
     color: #b3aeb5;
 }
 
-.footer {
-  width: 100%;
-  background: #00121b;
-  display: block;
+/*Edulan's Part*/
+footer {
+    width: 100%;
+    background: #00121b;
+    display: block;
+    margin-top: 30px;
 }
+  
 
 .inner-footer {
-  width: 95%
-  margin: auto;
-  padding: 30px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  justify-content: center;
+    width: 95%;
+    margin: auto;
+    padding: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
 }
-
+  
 .footer-items {
-  width: 25%;
-  padding: 10px 20px;
-  box-sizing: border-box;
+    width: 25%;
+    padding: 10px 30px;
+    box-sizing: border-box;
 }
-
-h1 {
-  padding: 10px 0;
-  font-size: 25px;
-  color: #fff;
-  text-transform: uppercase;
+  
+.footer-items h1 {
+    padding: 8px 0;
+    font-size: 25px;
+    color: #ff9800;
+    text-transform: uppercase;
 }
-
+  
 .footer-items p {
-  color: grey;
-  font-size: 16px;
-  text-align: justify;
-  line-height: 25px;
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 4px;
 }
-
-h2 {
-  margin: 10px 0;
-  color: grey;
-  font-size: 16px;
-  font-weight: lighter;
-  text-transform: uppercase;
+  
+.footer-items h2 {
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
-
+  
 .border {
-  height: 2px;
-  width: 40px;
-  background: #ff9800;
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
 }
-
-ul {
-  list-style: none;
-  color: #fff;
-  font-size: 15px;
-  letter-spacing: 0.5px;
+  
+.footer-items ul {
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
 }
-
-ul a {
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  transition: 0.3s;
+  
+.footer-items ul a {
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
 }
-
-ul a:hover {
-  color: #ff9800;
+  
+.footer-items ul a:hover {
+    color: #ff9800;
 }
-
-ul li {
-  margin-right: 20px;
-  height: 25px;
+  
+.footer-items ul li {
+    margin-right: 10px;
+    height: 25px;
 }
-
-li i {
-  margin-right: 20px:
+  
+.footer-items li i {
+    margin-right: 10px:
 }
-
+  
 .footer-bottom {
-  text-align: center;
-  padding: 10px;
-  background: #3d545f;
-  color: #fff;
-  font-size: 12px;
+    padding: 10px;
+    background: #3d545f;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
 }
+
