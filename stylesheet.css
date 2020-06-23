@@ -154,6 +154,7 @@ header {
 
 .icon-jenjang {
     border-radius: 20px;
+    transition: margin 1s ease,box-shadow 1s ease;
 }
 
 .jenjang p{
