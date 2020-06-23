@@ -250,6 +250,7 @@ li i {
 }
 
 .footer-bottom {
+  text-align: center;
   padding: 10px;
   background: #3d545f;
   color: #fff;
